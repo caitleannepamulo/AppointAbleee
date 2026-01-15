@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".TeachersMainActivity">
+
+    <FrameLayout
+        android:id="@+id/fragment_container"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toTopOf="@id/custom_navbar"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:background="@android:color/white" />
+
+    <!-- 🔽 Sleek Custom Scrollable Bottom Navigation -->
+    <HorizontalScrollView
+        android:id="@+id/custom_navbar"
+        android:layout_width="0dp"
+        android:layout_height="50dp"
+        android:fillViewport="true"
+        android:scrollbars="none"
+        android:background="@color/white"
+        android:elevation="8dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent">
+
+        <LinearLayout
+            android:id="@+id/nav_container"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+            android:gravity="center"
+            android:paddingLeft="8dp"
+            android:paddingRight="8dp"
+            android:paddingTop="4dp"
+            android:paddingBottom="4dp"
+            >
+
+            <!-- 🔹 Common style applied to all buttons -->
+            <Button
+                android:id="@+id/btn_home"
+                android:text="Home"
+                android:drawableTop="@drawable/ic_home"
+                style="@style/NavButtonStyle" />
+
+            <Button
+                android:id="@+id/btn_appointments"
+                android:text="Appointments"
+                android:drawableTop="@drawable/ic_calendar"
+                style="@style/NavButtonStyle" />
+
+            <Button
+                android:id="@+id/btn_students"
+                android:text="Students"
+                android:drawableTop="@drawable/ic_students"
+                style="@style/NavButtonStyle" />
+
+            <Button
+                android:id="@+id/btn_game"
+                android:text="Learn"
+                android:drawableTop="@drawable/outline_book_2_24"
+                style="@style/NavButtonStyle" />
+
+            <Button
+                android:id="@+id/btn_messages"
+                android:text="Messages"
+                android:drawableTop="@drawable/ic_messages"
+                style="@style/NavButtonStyle" />
+
+            <Button
+                android:id="@+id/btn_profile"
+                android:text="Profile"
+                android:drawableTop="@drawable/ic_profile"
+                style="@style/NavButtonStyle" />
+
+        </LinearLayout>
+    </HorizontalScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,10 @@
+0000000000000000000000000000000000000000 468b881c117ea97875786a933ff23c44add08fcd unknown <Curt@DESKTOP-QSCQQIJ.(none)> 1764207025 +0800	clone: from https://github.com/caitleannepamulo/AppointAble.git
+468b881c117ea97875786a933ff23c44add08fcd e80cc39f8f9b6e8d7f9bba24933b4f05889fc5fa kertyy11 <curtcastillo19@gmail.com> 1767862989 +0800	commit: Initial commit
+e80cc39f8f9b6e8d7f9bba24933b4f05889fc5fa 2eea0d0f226b7614a64a95d9f35bb832f0890cfe kertyy11 <curtcastillo19@gmail.com> 1767863462 +0800	commit: Initial commit
+2eea0d0f226b7614a64a95d9f35bb832f0890cfe f9c73d20afde0f04d8dcc912242366ee17ec29a7 kertyy11 <curtcastillo19@gmail.com> 1767863515 +0800	commit (amend): Initial commit
+f9c73d20afde0f04d8dcc912242366ee17ec29a7 448c76a497b377d4a29ec007a2a053723b9b5653 kertyy11 <curtcastillo19@gmail.com> 1767863575 +0800	commit (amend): Initial commit
+448c76a497b377d4a29ec007a2a053723b9b5653 468b881c117ea97875786a933ff23c44add08fcd kertyy11 <curtcastillo19@gmail.com> 1767935539 +0800	reset: moving to origin/master
+468b881c117ea97875786a933ff23c44add08fcd 0000000000000000000000000000000000000000 kertyy11 <curtcastillo19@gmail.com> 1767935632 +0800	Branch: renamed refs/heads/master to refs/heads/main
+0000000000000000000000000000000000000000 468b881c117ea97875786a933ff23c44add08fcd kertyy11 <curtcastillo19@gmail.com> 1767935632 +0800	Branch: renamed refs/heads/master to refs/heads/main
+468b881c117ea97875786a933ff23c44add08fcd 9018462dffae70fe678c7b3c95e77f7a15610ccc kertyy11 <curtcastillo19@gmail.com> 1767936459 +0800	commit: Upload Android project
+9018462dffae70fe678c7b3c95e77f7a15610ccc 3bfac5c5163215fcafb9999ec06a84c2311937b5 CaitleannePamulo <Caitleanneleighpamulo@gmail.com> 1768477315 +0800	commit: Update appointments, notifications, reminders, and UI layouts

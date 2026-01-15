@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">appointable</string>
+    <string name="toggle_password_visibility" />
+    <string name="home">Home</string>
+    <string name="appointments">Appointments</string>
+    <string name="messages">Messages</string>
+    <string name="learn">Learn</string>
+    <string name="students">Students</string>
+    <string name="profile">Profile</string>
+    <string name="back">Back</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string-array name="student_status_array">
+        <item>Active</item>
+        <item>Irregular</item>
+        <item>Dropped</item>
+    </string-array>
+
+</resources>

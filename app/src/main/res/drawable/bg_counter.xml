@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!-- Soft shadow -->
+    <item>
+        <shape>
+            <solid android:color="#33000000"/>
+            <corners android:radius="18dp"/>
+            <padding
+                android:left="2dp"
+                android:top="2dp"
+                android:right="2dp"
+                android:bottom="2dp"/>
+        </shape>
+    </item>
+
+    <!-- Foreground card -->
+    <item android:left="0dp" android:top="0dp">
+        <shape>
+            <gradient
+                android:angle="90"
+                android:startColor="#5271FF"
+                android:endColor="#6F8CFF"/>
+            <corners android:radius="16dp"/>
+        </shape>
+    </item>
+
+</layer-list>

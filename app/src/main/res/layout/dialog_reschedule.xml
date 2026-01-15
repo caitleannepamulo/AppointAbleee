@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="New Date"
+        android:layout_marginTop="12dp"
+        android:textSize="14sp"
+        android:textColor="#444"
+        android:fontFamily="@font/poppins_semibold"/>
+
+    <EditText
+        android:id="@+id/etNewDate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:focusable="false"
+        android:clickable="true"
+        android:hint="Select new date"
+        android:inputType="none"
+        android:padding="12dp"
+        android:background="@drawable/edittext_outline"
+        android:textSize="14sp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="New Time"
+        android:layout_marginTop="12dp"
+        android:textSize="14sp"
+        android:textColor="#444"
+        android:fontFamily="@font/poppins_semibold"/>
+
+    <EditText
+        android:id="@+id/etNewTime"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:focusable="false"
+        android:clickable="true"
+        android:hint="Select new time"
+        android:inputType="none"
+        android:padding="12dp"
+        android:background="@drawable/edittext_outline"
+        android:textSize="14sp"
+        android:layout_marginTop="12dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Reason of Rescheduling (required)"
+        android:layout_marginTop="12dp"
+        android:textSize="14sp"
+        android:textColor="#444"
+        android:fontFamily="@font/poppins_semibold"/>
+
+    <EditText
+        android:id="@+id/etComment"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Reason for rescheduling "
+        android:inputType="textMultiLine"
+        android:minLines="3"
+        android:gravity="top|start"
+        android:padding="12dp"
+        android:background="@drawable/edittext_outline"
+        android:textSize="14sp"
+        android:layout_marginTop="12dp" />
+
+
+</LinearLayout>

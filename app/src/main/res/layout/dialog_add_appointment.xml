@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:padding="20dp"
+    android:background="@android:color/white"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <TextView
+        android:id="@+id/dialogTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Book Appointment"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:textColor="#000"
+        android:paddingBottom="12dp"
+        android:layout_gravity="center"
+        android:fontFamily="@font/poppins_bold"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Appointment Type"
+        android:textSize="14sp"
+        android:fontFamily="@font/poppins_semibold"
+        android:textColor="#444"/>
+
+    <Spinner
+        android:id="@+id/spinnerType"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:layout_marginTop="4dp"
+        android:background="@drawable/spinner_background" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Select Date"
+        android:layout_marginTop="12dp"
+        android:textSize="14sp"
+        android:textColor="#444"
+        android:fontFamily="@font/poppins_semibold"/>
+
+    <EditText
+        android:id="@+id/etDate"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:background="@drawable/edittext_outline"
+        android:padding="10dp"
+        android:focusable="false"
+        android:clickable="true"
+        android:drawableEnd="@drawable/ic_calendar"
+        android:drawablePadding="10dp"
+        android:fontFamily="@font/poppins_medium"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Select Time"
+        android:layout_marginTop="12dp"
+        android:textSize="14sp"
+        android:textColor="#444"
+        android:fontFamily="@font/poppins_semibold"/>
+
+    <EditText
+        android:id="@+id/etTime"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:background="@drawable/edittext_outline"
+        android:padding="10dp"
+        android:focusable="false"
+        android:clickable="true"
+        android:drawableEnd="@drawable/ic_time"
+        android:drawablePadding="10dp"
+        android:fontFamily="@font/poppins_medium"/>
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/btnSaveAppointment"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="16dp"
+        android:text="Save Appointment"
+        android:backgroundTint="#ff9d00"
+        android:textColor="@android:color/white"
+        android:fontFamily="@font/poppins_bold"
+        android:textSize="16sp"
+        app:cornerRadius="16dp"/>
+
+</LinearLayout>

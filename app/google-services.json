@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "830415519866",
+    "project_id": "appointable",
+    "storage_bucket": "appointable.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:830415519866:android:bd61b77c6fa6cb68d6bbc3",
+        "android_client_info": {
+          "package_name": "com.example.appointable"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAkiW9hSrSyWiVccoCJMh8LaI1iKKvtBKY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
