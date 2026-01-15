@@ -14,3 +14,7 @@
 .cxx
 local.properties
 gradle/wrapper/dists/
+.idea/
+.git_old/
+Start-Service ssh-agent
+Start-Service ssh-agent.pub
